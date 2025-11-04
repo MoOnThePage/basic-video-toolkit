@@ -1,10 +1,42 @@
+# ====================================
+# Python + PyCharm + OpenCV Project
+# ====================================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
 
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# PyCharm project settings
+.idea/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+
 # C extensions
 *.so
+
+# output caches (optional — keep your own sample outputs if needed)
+outputs/*.tmp
+outputs/*.bak
+outputs/*.cache
+
+*.bak
+*.swp
+*.swo
 
 # Distribution / packaging
 .Python
@@ -205,3 +237,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+test-results.xml
