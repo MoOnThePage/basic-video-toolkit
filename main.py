@@ -1,6 +1,10 @@
 """
 Basic Video Toolkit - Man Menu
 """
+# TODO: Add file browser feature
+# TODO: Add video Player feature "video_player.py" for playing saved files
+# TODO: Add video recording feature "video_recorder.py" for capturing, saving, motion detection from webcam
+# TODO: Add "outputs/" directory to save output it is empty for now
 def main():
     print(('=' * 5) + " Basic Video Toolkit " + ('=' * 5))
     print("\t 1. Brows for videos")
